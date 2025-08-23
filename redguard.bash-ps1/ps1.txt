@@ -1,0 +1,31 @@
+#
+# PS1 (bash prompt) — Redguard theme
+#
+PROMPT_COMMAND='
+EXIT=$?;
+
+# Arrow color based on exit code
+if [[ $EXIT -ne 0 ]]; then
+  ARROW="\[\e[38;2;191;0;33m\]▶\[\e[0m\]";   # redguard red
+else
+  ARROW="\[\e[38;2;169;138;120m\]▶\[\e[0m\]"; # muted rose-gray
+fi
+
+# Git branch — #3D6568 (green-gray)
+GIT_BRANCH="";
+if git rev-parse --is-inside-work-tree &>/dev/null; then
+  BRANCH_NAME=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null);
+  GIT_BRANCH=" \[\e[38;2;61;101;104m\](\[$(tput bold)\]$BRANCH_NAME\[$(tput sgr0)\]\[\e[38;2;61;101;104m\])\[\e[0m\]";
+fi
+
+# Virtual environment — #904180 (purple accent)
+VENV="";
+if [[ -n "$VIRTUAL_ENV" ]]; then
+  VENV_NAME=$(basename "$VIRTUAL_ENV");
+  VENV=" \[\e[38;2;144;65;128m\](\[$(tput bold)\]$VENV_NAME\[$(tput sgr0)\]\[\e[38;2;144;65;128m\])\[\e[0m\]";
+fi
+
+# Prompt with brown-based gradient start
+PS1="\[\e[38;2;169;138;120m\]▒\[\e[0m\]\[\e[38;2;125;102;88m\]▓\[\e[0m\] \[\e[38;2;191;0;33m\]\w\[\e[0m\]${GIT_BRANCH}${VENV} \n${ARROW} "
+'
+

@@ -1,0 +1,25 @@
+  {
+    "name": "Redguard",
+    "background": "#2E2A2C",        // redguard0 - near black
+    "foreground": "#ECEFF4",        // white
+    "cursorColor": "#E38BA1",       // pink
+    "selectionBackground": "#44353C", // redguard2
+
+    "black": "#2E2A2C",             // redguard0
+    "red": "#BF616A",               // red
+    "green": "#A3BE8C",             // green
+    "yellow": "#EBCB8B",            // yellow
+    "blue": "#A24C5E",              // wine (deep accent red)
+    "purple": "#B48EAD",            // purple
+    "cyan": "#D08CA3",              // rose
+    "white": "#ECEFF4",             // white
+
+    "brightBlack": "#3B2F34",       // redguard1
+    "brightRed": "#C46C7F",         // crimson
+    "brightGreen": "#B5D3A3",       // lighter green (derived)
+    "brightYellow": "#F1D8A5",      // lighter yellow
+    "brightBlue": "#E38BA1",        // pink (bright accent)
+    "brightPurple": "#D6A5CE",      // lighter purple
+    "brightCyan": "#E9AFC0",        // lighter rose
+    "brightWhite": "#FFFFFF"        // pure white
+  }
