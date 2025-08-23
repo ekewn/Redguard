@@ -1,6 +1,7 @@
 # Description
 
-It's Nord... but red...
+It's Nord... but red..
+It makes you feel warmer, but also like everything is an error!
 
 ## Supported Apps
 1. Neovim ![Neovim Pic](redguard.nvim/Sample.png)
