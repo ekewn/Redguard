@@ -13,10 +13,10 @@
   --fg: #D8DEE9;           
   --accent-fg: #3D6568;   
   --border: #7D6658;     
-  --title: #E3DFDE;      
-  --title-accent: #BF0021;
-  --link: #517693;        
-  --link-accent: #904180; 
+  --title: #D8DEE9;      
+  --title-accent: #A24C5E;
+  --link: #5e81ac;        
+  --link-accent: #B48EAD; 
 
   font-family: var(--font);
   font-size: var(--font-size-link);
@@ -95,7 +95,7 @@
   --title: #E38BA1;        
   --title-accent: #A24C5E; 
   --link: #517693;        
-  --link-accent: #904180;
+  --link-accent: #B48EAD;
 
   font-family: var(--font);
   /*font-size: var(--font-size);*/
@@ -266,14 +266,14 @@ body.has-dark{
   --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
   /* ----------  REDGUARD THEME  ---------- */
-  --bg: #222021;           /* darkest background */
-  --fg: #A98A78;           /* muted rose-gray */
-  --accent-fg: #3D6568;    /* teal */
-  --border: #7D6658;       /* gray */
-  --title: #E3DFDE;        /* lighter gray */
-  --title-accent: #BF0021; /* red (for highlights) */
-  --link: #517693;         /* glacier blue */
-  --link-accent: #904180;  /* purple */
+  --bg: #C46C7F;
+  --fg: #D8DEE9;           
+  --accent-fg: #3D6568;   
+  --border: #7D6658;     
+  --title: #D8DEE9;      
+  --title-accent: #A24C5E;
+  --link: #5e81ac;        
+  --link-accent: #B48EAD; 
 
   font-family: var(--font);
   /*font-size: var(--font-size);*/

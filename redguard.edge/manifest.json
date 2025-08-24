@@ -2,28 +2,23 @@
   "manifest_version": 3,
   "name": "Redguard",
   "version": "1.0",
-  "description": "It's Nord but red...",
   "theme": {
     "colors": {
-      "frame": [46, 42, 44],         
+      "frame": [46, 42, 44],
       "frame_inactive": [59, 47, 52],
       "frame_incognito": [68, 53, 60],
       "frame_incognito_inactive": [68, 53, 60],
-
-      "toolbar": [46, 42, 44],        
-      "tab_text": [236, 239, 244],    
-      "tab_background_text": [212, 218, 225],
-      "bookmark_text": [236, 239, 244],     
-
-      "ntp_background": [46, 42, 44],      
+      "toolbar": [46, 42, 44],
+      "tab_text": [227, 139, 161],
+      "tab_background_text": [180, 142, 173],
+      "bookmark_text": [236, 239, 244],
+      "ntp_background": [46, 42, 44],
       "ntp_text": [236, 239, 244],
-
-      "button_background": [162, 76, 94], 
+      "ntp_link": [144, 140, 170],
       "omnibox_background": [59, 47, 52],
-      "omnibox_text": [236, 239, 244],
-      "omnibox_border": [196, 108, 127],
-      "omnibox_text_selected": [227, 139, 161],
-      "omnibox_selection_background": [227, 139, 161]
+      "omnibox_text": [227, 139, 161],
+      "omnibox_text_selected": [208, 140, 163],
+      "omnibox_selection_background": [68, 53, 60]
     }
   }
 }
